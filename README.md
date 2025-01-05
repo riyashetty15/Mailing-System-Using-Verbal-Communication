@@ -1,7 +1,6 @@
 # Mailing-System-Using-Verbal-Communication
 ### Paper Publication: <a href= "https://www.researchgate.net/publication/341873848_Mailing_System_using_Verbal_Communication"> Mailing System Using Verbal Communication </a>
 <br>
-<br>
 This project aims to revolutionize email accessibility for visually impaired individuals, offering a seamless and intuitive email experience. The goal of this project is to create an application that eliminates the need for keyboard shortcuts or knowledge of key locations, making email communication accessible to all.
 
 ### Overview

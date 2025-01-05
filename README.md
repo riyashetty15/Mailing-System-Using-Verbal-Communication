@@ -25,3 +25,5 @@ To demonstrate the real-world applicability of this solution, I hosted the Voice
 
 ### Acknowledgments
 I would like to extend my gratitude to my mentors and the research community for their guidance and support. This project is a step towards creating a more inclusive digital world, and I hope it inspires further innovations in accessibility.
+
+### Paper Publication: <a href= "https://www.researchgate.net/publication/341873848_Mailing_System_using_Verbal_Communication"> Mailing System Using Verbal Communication </a>

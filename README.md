@@ -1,12 +1,27 @@
 # Mailing-System-Using-Verbal-Communication
-In this Android Application, we will be developing a voice-based email system that will aid visually impaired people who are naïve to computer systems to use email facilities in a hassle-free manner. The users of this system would not need to have any basic information regarding keyboard shortcuts or where the keys are located. All functions are based on simple voice commands making it very easy for any type of user to use this system. Also, the user need not worry about remembering which mouse click operation needs to be performed to avail of a given service as the system itself will be promoting them as to which click will provide them with what operations.
-<br>
-<br>
-Develop an Android application using Android Studio, integrate it with the Gmail API, and finally implement the TF-IDF algorithm of the NLP for the file attachment part. For the text-to-speech conversion and vice versa, I had to integrate the gTTs module of Google into the application as well. Since I had to integrate various API I decided to divide the UI of the application into fragments which makes the model integration easier as well. This means that each page of the application had its own life cycle but was connected with the other pages in the application. 
-<br>
-<br>
-As soon as the user enters the application the app asks for permissions and asks for the authorization of the email-id and password of the user. Once the email-id is authorized it is stored in a variable. The inbox emails of the user are stored in a JSON file. And the messages are retrieved from the JSON file, To store the email and password we used the shared preferences. Created an async task for sending mail using Gmail OAuth. Used Gmail’s official method to send the email with OAuth. The Gmail is sent using the encoder. Mimepart and Multipart were used for retrieving the file and attaching the same. Data handler to mention the file name. Apart from this, for the file attachment we used the TF-IDF algorithm. The application asks the user if the user wants to attach the file, if yes then the app asks for the file name, generates a summary of the mentioned file, and reads it out to the user, to confirm if the correct file has been chosen and if the user wants to send the mail with the attached file.
-<br>
-<br>
-<b>Result: </b><br>
-The result of this application was that we were able to build the whole application well within the deadline resulting in us publishing a paper on the same, as well as hosting this application for a very short period on Heroku.
+This project aims to revolutionize email accessibility for visually impaired individuals, offering a seamless and intuitive email experience. The goal of this project is to create an application that eliminates the need for keyboard shortcuts or knowledge of key locations, making email communication accessible to all.
+
+### Overview
+This Android application utilizes voice commands to navigate and utilize email facilities effortlessly. By integrating Text-to-Speech (TTS) and Speech-to-Text (STT) technologies, it enable users to interact with their emails using natural language processing. Additionally, I've employed text summarization techniques to assist users in attaching files, providing concise summaries for easy selection.
+
+### Features
+**Voice-Based Navigation**: Users can navigate the application and perform email actions using simple voice commands.
+**TTS and STT Integration**: TTS reads out emails, while STT converts spoken words into text for composing messages.
+**Text Summarization**: The TF-IDF algorithm generates summaries of files, aiding users in selecting attachments.
+**User-Friendly Interface**: The application provides clear instructions and guidance, ensuring a smooth and intuitive user experience.
+
+### Methodology
+
+**Authentication**: Users authenticate their Gmail accounts using the Gmail API, ensuring secure access.
+**Email Composition**: Users can compose emails using voice commands, with STT converting speech to text.
+**File Attachment**: The application generates summaries of available files, allowing users to attach files using voice commands.
+**Email Reading**: TTS reads out received emails, providing an accessible way to consume email content.
+
+### Scope and Impact
+This project aims to empower visually impaired users and bridge the digital divide. By eliminating the reliance on keyboards and visual cues, making email communication accessible to a wider audience. Additionally, this application can benefit individuals with reading difficulties, offering an alternative way to interact with emails.
+
+### Result
+To demonstrate the real-world applicability of this solution, I hosted the Voice-Enabled Email Companion on Heroku for a limited time. This brief hosting period allowed us to gather valuable user feedback and showcase the application's usability and impact. Although the hosting was temporary, it left a lasting impression and highlighted the potential for widespread adoption.
+
+### Acknowledgments
+I would like to extend my gratitude to my mentors and the research community for their guidance and support. This project is a step towards creating a more inclusive digital world, and I hope it inspires further innovations in accessibility.
